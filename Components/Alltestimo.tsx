@@ -1,8 +1,7 @@
-import React from "react";
 import Testimonial from "@/Components/Testimonial";
-import { isExpressionStatement } from "typescript";
 
 const Alltestimo = () => {
+
 	const data = [
 		{
 			img: "https://placehold.co/100x100/brown/white",
@@ -43,6 +42,7 @@ const Alltestimo = () => {
 			</div>
 		</>
 	);
+
 };
 
 export default Alltestimo;
