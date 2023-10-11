@@ -1,7 +1,7 @@
 import React from "react";
 type test = {
   img: string;
-  head: string;
+  heading: string;
   name: string;
   post: string;
 };
@@ -20,7 +20,7 @@ const Testimonial = (props: test) => {
             <span className="font-bold text-orange-600 text-lg mr-2">
               &#10077;
             </span>
-            {props.head}
+            {props.heading}
             <span className="font-bold text-orange-600 text-lg  ml-2">
               &#10078;
             </span>
