@@ -28,17 +28,23 @@ const Alltestimo = () => {
   return (
     <>
       <h1>hello</h1>
+      
 
       {
-      data.map((e) => {
-        <Testimonial
+        data.map((e,index) => {
+          
+          
+        <Testimonial key={index}
           img={e.img}
           head={e.heading}
           post={e.post}
           name={e.name}
         />;
+        
       })
+      
       }
+    
     </>
   );
 };
