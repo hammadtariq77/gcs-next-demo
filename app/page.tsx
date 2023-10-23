@@ -4,18 +4,18 @@ import Services from "@/Components/Services";
 import Hero from "@/Components/Hero";
 import Alldata from "@/Components/Alldata";
 import MyTable from "@/Components/MyTable";
-import Countchar from "@/Components/Countchar";
+import Carousel from "@/Components/Carousel";
 
 const page = () => {
   return (
     <>
-      
+      <Carousel/>
        
-      <Countchar/>
+     {/*  <Countchar/>
 
       <Hero />    
       <Alldata/>
-      <Services /> 
+      <Services /> */}
     </>
   );
 };
