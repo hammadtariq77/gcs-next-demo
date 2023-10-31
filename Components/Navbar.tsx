@@ -14,6 +14,7 @@ const home=()=>{
                 <Link href="/About">about</Link>
                 <Link href="/Services">service</Link>
                 <Link href="/Contact">contact</Link>
+                <Link href="/products">product</Link>
             </div>
             </div> 
         </>

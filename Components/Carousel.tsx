@@ -33,9 +33,9 @@ const carousel = () => {
   
   return (
     <>
-<div className='h-[90vh] w-screen bg-cover bg-center bg-no-repeat flex justify-center items-center' style={{backgroundImage: `url(${data[slide].imgg})`}}  >
-  <div>
-    <h1 className='text-[7vw] font-bold text-black capitalize'>{data[slide].title}</h1>
+<div className='h-[90vh] w-screen bg-cover bg-center relative bg-no-repeat overflow-x-hidden flex justify-center items-center ' style={{backgroundImage: `url(${data[slide].imgg})`}}  >
+<div className='absolute z-20'>
+    <h1 className='text-[8vw] font-bold text-black capitalize'>{data[slide].title}</h1>
   </div>
 
 </div>
